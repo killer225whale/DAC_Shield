@@ -1,4 +1,4 @@
-# ECE2A-DAC-Shield
+# DAC-Shield
 
 Source code for DAC shield for ECE2A at UCSB
 
