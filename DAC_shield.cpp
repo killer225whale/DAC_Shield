@@ -11,12 +11,6 @@ void DAC_shield::prep()
 	pinMode(LATCH, OUTPUT);
 	pinMode(OUT_SEL_0, OUTPUT);
 	pinMode(OUT_SEL_1, OUTPUT);
-
-  //Make sure all outputs begin at 0V
-  DAC.set(0, 0);
-  DAC.set(1, 0);
-  DAC.set(2, 0);
-  DAC.set(3, 0);
 }
 
 void DAC_shield::set(byte output_select, byte output_value)
